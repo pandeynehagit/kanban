@@ -1,0 +1,26 @@
+ApproCHES:
+//html
+1. top nav bar
+2.color icon div
+3. add button and close button
+4.modal to add the note
+   1. text area
+   2. color selection widget
+   3. task card
+        .task strip of color
+        .task desc
+        .lock unlock icon
+        .unique id strip
+
+// functionality
+1.click event on add button
+2.click event on color widget
+3.keydown event on enter button
+4.click event on the top strip of task card
+5.click event on the lock aulock icon
+6.click event on remove button
+7. click event on task card to remove
+8. click event on the top color icons to filter
+9. double click on the top color icons to remove
+
+
