@@ -65,3 +65,40 @@ color: beige;
 font-size: 30px;
 width: 50%;
 }
+.priority-color{
+    height: 48px;
+    width: 80px;
+
+}
+
+.active{
+    border: 5px solid lightsalmon;
+}
+.modal-cont{
+    display: none;
+    height:50vh ;
+    width: 45vw;
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.textArea-cont{
+    width: 75%;
+    outline: none;
+    height: 100%;
+    background-color: lightgray;
+    resize: none;
+    border: none;
+    font-size: 32px;
+}
+.priority-color-cont{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+   
+}
