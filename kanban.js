@@ -3,7 +3,7 @@ let removebuttn = document.querySelector(".remove-btn");
 let modalcont = document.querySelector(".modal-cont");
 let addTaskflag = false;
 let removeTaskflag = false;
-addbuttn.addEventListener("click",function(e){
+addbuttn.addEventListener("click",function(){
     addTaskflag=!addTaskflag;
     if(addTaskflag===true){
         //make it flex
@@ -14,7 +14,7 @@ addbuttn.addEventListener("click",function(e){
         modalcont.style.display="none";
     }
 });
-removebuttn.addEventListener("click",function(e){
+removebuttn.addEventListener("click",function(){
     removeTaskflag=!removeTaskflag;
     if(removeTaskflag===true){
         //make it flex
@@ -25,4 +25,4 @@ removebuttn.addEventListener("click",function(e){
         // none
         removebuttn.style.color="white";
     }
-})
+});
